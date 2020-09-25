@@ -4,8 +4,8 @@ import { Spinner } from 'reactstrap';
 
 const LineChart = ({ chartData = [], yAxisTitle }) => (
   <Chart
-    width={'800px'}
-    height={'400px'}
+    width={'1200px'}
+    height={'600px'}
     chartType="LineChart"
     loader={<Spinner color="dark" />}
     data={[['value', yAxisTitle], ...chartData]}
