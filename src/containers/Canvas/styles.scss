@@ -1,0 +1,39 @@
+.canvas {
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3);
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
+.button-actions {
+  display: flex;
+  margin: 0 auto;
+  width: 35%;
+  margin-top: 1rem;
+}
+
+.dropzone {
+  width: unset;
+  height: unset;
+  border-width: unset;
+  border-color: unset;
+  border-style: unset;
+  border-radius: unset;
+
+  & > button {
+    border-right-width: 0px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  & > input {
+    width: 100%;
+  }
+}
